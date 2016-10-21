@@ -4,6 +4,9 @@
 [![Peer Dependencies](http://img.shields.io/david/peer/lo1tuma/eslint-plugin-mocha.svg?style=flat)](https://david-dm.org/lo1tuma/eslint-plugin-mocha#info=peerDependencies&view=table)
 [![NPM Downloads](https://img.shields.io/npm/dm/eslint-plugin-mocha.svg?style=flat)](https://www.npmjs.org/package/eslint-plugin-mocha)
 
+# FORK
+This is a fork of eslint-plugin-mocha which adds mocha-cakes keywords to the plugin rules
+
 # eslint-plugin-mocha
 
 ESLint rules for [mocha](http://mochajs.org/).
