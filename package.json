@@ -1,9 +1,10 @@
 {
     "name": "eslint-plugin-mocha-cakes",
-    "version": "4.7.2",
+    "version": "4.7.3",
     "description": "Eslint rules for mocha and mocha cakes.",
     "main": "index.js",
     "scripts": {
+        "pretest": "eslint .",
         "test": "npm run test:unit --coverage && npm run check-coverage",
         "test:unit": "istanbul test _mocha test -- --recursive --reporter dot",
         "check-coverage": "istanbul check-coverage --statement 100 --branch 100 --function 100 --lines 100",

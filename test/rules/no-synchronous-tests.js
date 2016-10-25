@@ -31,6 +31,11 @@ ruleTester.run('no-synchronous-tests', rules['no-synchronous-tests'], {
         {
             code: 'it("", function() { getData(function(data) { expect(expected).to.be.present() }); })',
             errors: [ { message: 'Unexpected synchronous test.' } ]
+        },
+        {
+            code: 'before(() => { async(() => {}) })',
+            errors: [ { message: 'Unexpected synchronous test.' } ],
+            parserOptions: { ecmaVersion: 6 }
         }
     ]
 });
