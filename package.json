@@ -1,7 +1,7 @@
 {
     "name": "eslint-plugin-mocha-cakes",
-    "version": "4.7.1",
-    "description": "Eslint rules for moch and mocha cakes.",
+    "version": "4.7.2",
+    "description": "Eslint rules for mocha and mocha cakes.",
     "main": "index.js",
     "scripts": {
         "test": "npm run test:unit --coverage && npm run check-coverage",
